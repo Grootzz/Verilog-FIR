@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">fir.v</arg>&quot; line <arg fmt="%d" index="2">170</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;rst&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">272</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">delay_pipeline</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">544</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">product</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_9_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_9_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_10_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_10_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_6_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_6_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_5_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_5_30&gt; &lt;product_5_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_0_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_0_22&gt; &lt;product_0_23&gt; &lt;product_0_24&gt; &lt;product_0_25&gt; &lt;product_0_26&gt; &lt;product_0_27&gt; &lt;product_0_28&gt; &lt;product_0_29&gt; &lt;product_0_30&gt; &lt;product_0_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_14_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_14_26&gt; &lt;product_14_27&gt; &lt;product_14_28&gt; &lt;product_14_29&gt; &lt;product_14_30&gt; &lt;product_14_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_8_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_8_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_4_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_4_29&gt; &lt;product_4_30&gt; &lt;product_4_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_13_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_13_28&gt; &lt;product_13_29&gt; &lt;product_13_30&gt; &lt;product_13_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_2_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_2_26&gt; &lt;product_2_27&gt; &lt;product_2_28&gt; &lt;product_2_29&gt; &lt;product_2_30&gt; &lt;product_2_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_3_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_3_28&gt; &lt;product_3_29&gt; &lt;product_3_30&gt; &lt;product_3_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_15_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">9 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_15_23&gt; &lt;product_15_24&gt; &lt;product_15_25&gt; &lt;product_15_26&gt; &lt;product_15_27&gt; &lt;product_15_28&gt; &lt;product_15_29&gt; &lt;product_15_30&gt; &lt;product_15_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_7_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_7_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_16_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_16_22&gt; &lt;product_16_23&gt; &lt;product_16_24&gt; &lt;product_16_25&gt; &lt;product_16_26&gt; &lt;product_16_27&gt; &lt;product_16_28&gt; &lt;product_16_29&gt; &lt;product_16_30&gt; &lt;product_16_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_1_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">9 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_1_23&gt; &lt;product_1_24&gt; &lt;product_1_25&gt; &lt;product_1_26&gt; &lt;product_1_27&gt; &lt;product_1_28&gt; &lt;product_1_29&gt; &lt;product_1_30&gt; &lt;product_1_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_11_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_11_30&gt; &lt;product_11_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">product_12_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fir</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;product_12_29&gt; &lt;product_12_30&gt; &lt;product_12_31&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/ISEProjece/FirDesign/fir_tb_isim_beh.exe" -prj "E:/ISEProjece/FirDesign/fir_tb_beh.prj" "work.fir_tb" "work.glbl" 
